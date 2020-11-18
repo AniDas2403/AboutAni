@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>AboutAni</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="index.css">
+		
+		
+	</head>
+	
+	</body>
+		<div id="m_title">
+			<p>About Ani</p>
+		</div>
+		
+		<div id="goldbar">
+			<p></p>
+		</div>
+		
+		<div id ="sec1">
+		
+			<div class ="title"><p>My Recent Activities</p></div>
+			
+			<div id ="activity_slides">
+			
+				<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+				
+				<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="10000">
+					<ol class="carousel-indicators">
+						<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+						<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+						<li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<video controls class="d-block w-100"> <source src="Website1.mp4" type="video/mp4"></video>
+							
+						</div>
+						<div class="carousel-item">
+							<video controls class="d-block w-100"> <source src="Website2.mp4" type="video/mp4"></video>
+							
+						</div>
+						<div class="carousel-item">
+							<video controls class="d-block w-100"> <source src="Ex3.mp4" type="video/mp4"></video>
+							
+						</div>
+					</div>
+					<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+					
+					
+				</div>
+			
+			</div>
+			
+			<div id="activity_info">
+			
+				<div class="accordion" id="accordionExample">
+					<div class="card">
+						<div class="card-header" id="headingOne">
+							<h2 class="mb-0">
+								<button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									Slide 1
+								</button>
+							</h2>
+						</div>
+
+						<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+							<div class="card-body">
+								<p class ="work_stat">Almost Completed! (Some data entry remaining)</p>
+								<p>Problem depicted - Designing a basic website with multiple webpages</p>
+								<p></p>
+								<p>Comments - Website has been successfully created. Same data is missing from website but all basic mechanisms are working properly</p>
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-header" id="headingTwo">
+							<h2 class="mb-0">
+								<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+									Slide 2
+								</button>
+							</h2>
+						</div>
+						<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+							<div class="card-body">
+								<p class ="work_stat">Completed!</p>
+								<p>Problem depicted - Designing a Wikipedia-like online encyclopedia</p>
+								<p></p>
+								<p>Comments - Some of the features are as follows</p>
+									<ul>Random Page - Takes user to a random entry</ul>
+									<ul>Search feature - Allows user to type in search querries. Matching entries open corresponding entry page</ul>
+									<ul>Creating and editing new pages - New pages can be created and saved and their entries can be edited and saved as well</ul>
+									<ul>Editing pre-existing entries - Existing entry pages can be edited as well</ul>
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-header" id="headingThree">
+							<h2 class="mb-0">
+								<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+									Slide 3
+								</button>
+							</h2>
+						</div>
+						<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+							<div class="card-body">
+								<p class ="work_stat">Work in progress!</p>
+								<p>Problem depicted - According to the Six Degrees of Kevin Bacon game, anyone in the Hollywood film industry can be connected to Kevin Bacon within six steps, where each step consists of finding a film that two actors both starred in. In the present problem, we’re interested in finding the shortest path between any two actors by choosing a sequence of movies that connects them.</p>
+								<p></p>
+								<p>Comments - Solution shown has a bug. It appears the current code is unable to find shortest path. Problem seems to be code is for some reason looping back to start position before reaching destination. For the data entries shown in the video, the correct solution is 2 degrees of seperation.Jennifer Lawrence is connected to Kevin Bacon by both starring in “X-Men: First Class,” and Kevin Bacon is connected to Tom Hanks by both starring in “Apollo 13.”</p> 
+							</div>
+						</div>
+					</div>
+				</div>
+			
+			</div>
+			
+		</div>
+		
+		<div id = "sec2">
+		
+			<div class ="title"><p>Courses I am involved with</p></div>
+			
+			<div id = MUN>
+			
+				<div class="card text-center" style="width: 18rem;">
+					<div class="card-body">
+						<p class="Sec-Header">Memorial University of Newfoundland</p>
+					</div>
+				</div>
+
+				<div class="card text-center" style="width: 18rem;">
+					<div class="card-body">
+						
+						<p class="card-text">Software Development</p>
+						
+					</div>
+				</div>
+
+				<div class="card text-center" style="width: 18rem;">
+					<div class="card-body">
+						
+						<p class="card-text">Game Programming</p>
+						
+					</div>
+				</div>
+				
+				<div class="card text-center" style="width: 18rem;">
+					<div class="card-body">
+						
+						<p class="card-text">Communication Principles</p>
+						
+					</div>
+				</div>
+				
+				<div class="card text-center" style="width: 18rem;">
+					<div class="card-body">
+						
+						<p class="card-text">Communication Networks</p>
+						
+					</div>
+				</div>
+				
+				<div class="card text-center" style="width: 18rem;">
+					<div class="card-body">
+						
+						<p class="card-text">Computer Architecture</p>
+						
+					</div>
+				</div>
+				
+			</div>
+			
+
+			
+			<div id ="EDX">			
+				<div class="card text-center" style="width: 18rem;">
+					<div class="card-body">
+						<p class="Sec-Header">EDX (Online)</p>
+					</div>
+				</div>
+			
+				<div class="card text-center" style="width: 18rem;">
+					<div class="card-body">
+						
+						<p class="card-text">Introduction to Computer Science</p>
+						
+					</div>
+				</div>
+
+				<div class="card text-center" style="width: 18rem;">
+					<div class="card-body">
+						
+						<p class="card-text">Web Development</p>
+						
+					</div>
+				</div>
+
+				<div class="card text-center" style="width: 18rem;">
+					<div class="card-body">
+						
+						<p class="card-text">Introduction to Artificial Intelligence</p>
+						
+					</div>
+				</div>
+				
+			</div>
+			
+						
+		</div>
+		
+		<div id="sec3">
+			
+			<div class ="title"><p>My Certificates</p></div>
+			
+			<div id ="cert">
+			
+				<div class="card mb-3">
+					<img src="C1.jpg" class="card-img-top" alt="C1">
+					<div class="card-body">
+						<h5 class="card-title">LBTechx1: Technology Entrepreneurship: Lab to Market</h5>
+						<p class="card-text">Certifies successful completion of the LBTechx1 course, offered by HarvardX, an online learning initiative of Harvard University.</p>
+						
+					</div>
+				</div>
+				
+				<div class="card mb-3">
+					<img src="C2.jpg" class="card-img-top" alt="C2">
+					<div class="card-body">
+						<h5 class="card-title">Psychological First Aid: Self Care</h5>
+						<p class="card-text">Issued by the Canadian Red Cross.</p>
+						
+					</div>
+				</div>
+				
+			</div>	
+			
+			
+		
+		
+		</div>
+		
+		<div id="sec4">
+		
+			<div class ="title"><p>My Story</p></div>
+			
+			<div id="Entries">
+		
+				<div class ="entry">
+					<p class ="entry_title">An Overview</p>
+					<p></p>
+					<p>     My name is Aniruddha. I moved to Canda from India in 2017 to pursue a Bachelor's degree in Computer Engineering at the Memorial University of Newfoundland. There were times when I wanted to purse a career in the fields of medicine, physics and maths, at various stages during my school years. However, since grade 11, it has been my goal to become a computer engineer, and thankfully, the opportunity to accomplish this goal, has been currrently presented to me! Fun fact! My name in my native language translates to "unstoppable", and I have always done my best to remain true to my name! </p>
+				</div>
+				
+				<div class ="entry">
+					<p class ="entry_title">Areas of Interest</p>
+					<p></p>
+					<p>    As one may guess, currently computer coding holds a big interst for me. Two big reasons for my interst in this field are, the logical aspect behind every code, and the vastness of the subject itself. I am really interested in the fields of Artificail Intelligence and Virtual Reality and I hope to develop my career in these fields, in the future.</p>
+					<p>    Besides computer programming, I have always been interested in mathematics and all forms of sciences (physics, chemistry and biology). Recently, I have also been looking into entrepreneurship, which also includes informaiton regarding product selection, market entry and competition, market control etc., and it has really fascinated me!
+				</div>
+			
+				<div class ="entry">
+					<p class ="entry_title">Hidden Skills</p>
+					<p></p>
+					<p>    I am confident in my negotiating and debating skills, and I am pretty good at conflict resolution. My negotiating skills allow me to obtain the best possible outcome for both partis involved in a conflict, while my debating skills allow me to have a solid position, backed by logic and facts, in any verbal disagreement. I am also really good at adapting to different scenarios. I can multi task fairly well and I always make sure to meet my deadlines.</p>
+					<p>    As for my hobbies, I really enjoy reading books, of most genre. I enjoy music, in fact I have some experience playing the violin! Lastly, I am extremely fond of cooking, specially Indian dishes and Indian fusion dishes!</p>
+				</div>
+				
+			</div>
+			
+			<div id ="gap">
+				<p></p>
+
+			</div>
+				
+		</div>
+	<body>

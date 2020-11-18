@@ -1,0 +1,84 @@
+#m_title{
+	margin: 5%;
+	font-size: 80px;
+	font-weight: bold;
+	font-style: italic;
+	color: blue;
+}
+
+#goldbar{
+	height: 0px;
+	margin-top: -3%;
+	margin-left: 5%;
+	margin-right: 7%;
+    border-bottom:solid 10px gold;
+}
+
+.title{
+	margin: 5%;
+	font-size: 70px;
+	font-weight: bold(light);
+	font-style: italic;
+	color: blue;
+}
+
+#activity_slides{
+	margin-top: -3%;
+	margin-left: 17%;
+	margin-right: 17%;
+}
+
+
+#activity_info{
+	margin-top: 3%;
+	margin-left: 5%;
+	margin-right: 12%;
+}
+
+#MUN{
+	margin-left: 5%;
+}
+
+#EDX{
+	margin-left: 35%;
+	margin-top:-23%;
+}
+
+.carousel-caption{
+	color:black;
+}
+
+.Sec-Header{
+	font-weight: bold;
+}
+
+#gap{
+	height: 0px;
+	margin-top: 8%;
+	border:solid 22px white;
+}
+
+.carousel-control-prev{
+	margin: 5%;
+}
+
+.carousel-control-next{
+	margin:5%;
+}
+#sec3{
+	margin-top:12%
+}
+
+#cert{
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+#Entries{
+	margin-left:5%;
+}
+
+.entry_title{
+	font-size:30px;
+	font-style:italic;
+	color:blue;
