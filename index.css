@@ -6,6 +6,11 @@
 	color: blue;
 }
 
+#nav{
+	margin-left: 5%;
+	margin-right: 7%;
+}
+
 #goldbar{
 	height: 0px;
 	margin-top: -3%;
